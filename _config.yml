@@ -1,0 +1,19 @@
+markdown: rdiscount
+pygments: true
+permalink: :categories/:year/:month/:day/:title 
+title : 会飞de树's Trip Plans
+author :
+  name : 会飞de树
+  email : wellwy@gmail.com
+  github : wellwy
+  twitter : 
+  feedburner : 
+
+baseurl : /tripplan
+homepage : /index.html
+graphs : /tripplan/include/graphs
+static : http://wellwy.github.io/static/include
+static_goobs : http://wellwy.github.io/static/include/google-bootstrap
+
+comments: true
+googleAnalytics : true

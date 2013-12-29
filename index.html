@@ -1,0 +1,11 @@
+---
+layout: default
+title: Trip List
+---
+
+<ul class="nav nav-tabs nav-stacked">
+<li class="active"><a href="#">{{page.title}}</a></li>
+{% for trip in site.categories['trip'] reversed %}
+	<li ><a href="{{site.baseurl}}{{ trip.url }}">{{trip.title}}</a></li>
+{% endfor %}
+</ul>
